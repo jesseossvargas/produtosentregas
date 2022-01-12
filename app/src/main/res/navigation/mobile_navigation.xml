@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="org.jesse.produtosentregas.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_produtos"
+        android:name="org.jesse.produtosentregas.ui.produtos.ProdutosFragment"
+        android:label="@string/menu_produtos"
+        tools:layout="@layout/fragment_produtos" />
+
+    <fragment
+        android:id="@+id/nav_entregas"
+        android:name="org.jesse.produtosentregas.ui.entregas.EntregasFragment"
+        android:label="@string/menu_entregas"
+        tools:layout="@layout/fragment_entregas" />
+
+    <fragment
+        android:id="@+id/nav_colaboradores"
+        android:name="org.jesse.produtosentregas.ui.colaboradores.ColaboradoresFragment"
+        android:label="@string/menu_colaboradores"
+        tools:layout="@layout/fragment_colaboradores" />
+</navigation>

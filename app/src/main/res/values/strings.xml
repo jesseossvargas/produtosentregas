@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ProdutosEntregas</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Produtos Entregas</string>
+    <string name="nav_header_subtitle">org.jesse</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Produtos Entregas</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="hello_blank_fragment">Bem Vindo</string>
+    <string name="menu_produtos">Produtos</string>
+    <string name="menu_entregas">Entregas</string>
+    <string name="menu_colaboradores">Colaboradores</string>
+</resources>
